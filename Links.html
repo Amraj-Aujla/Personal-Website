@@ -5,11 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amraj Aujla </title>
+    <style>
+        .container {
+            overflow: auto;
+        }
+
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+        }
+    </style>
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/daf8ac6d72.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Sevillana&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sevillana&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -23,21 +41,22 @@
             <ul class="navbar__menu">
                 <li class="navbar__item">
                     <a href="/" class="navbar__links">
-                About Me
+                        About Me
                     </a>
                 </li>
                 <li class="navbar__item">
-                    <a href="AmrajAujla-Resume.pdf" class="navbar__links">
-                    Resume                        </a>
-                <!-- </li>
-                <li class="navbar__item">
-                    <a href="/" class="navbar__links">
-                Links
+                    <a href="Resume/Amraj_Aujla_Resume.pdf" class="navbar__links">
+                        Resume
                     </a>
-                </li> -->
+                </li>
+                <li class="navbar__item">
+                    <a href="Projects.html" class="navbar__links">
+                Projects
+                    </a>
+                </li>
                 <li class="navbar__btn">
                     <a href="Links.html" class="button">
-              Links
+                        Links
                     </a>
                 </li>
             </ul>
@@ -45,68 +64,69 @@
     </nav>
 
     <!-- Hero section -->
-
 <section>
-<div class="container">
-    <div class="contactinfo">
-        <div>
-            <h2>Contact Info</h2>
-            <ul class = "info">
-                <li>
-                    <span><i class="fa-solid fa-person"></i></span>
-                    <span>Amraj Aujla </span>
-                </li>
-                <li>
-                    <span><i class="fa-solid fa-envelope"></i></i></span>
-                    <span>
-                    Amrajaujla@hotmail.com </span>
-                </li>
-                <li>
-                    <span><i class="fa-solid fa-phone"></i></span>
-                    <span>
-                    778-237-2752
-                </span>
-                </li> 
+    <div class="container">
+        <div class="contactinfo">
+            <div>
+                <h2>Contact Info</h2>
+                <ul class = "info">
+                    <li>
+                        <span><i class="fa-solid fa-person"></i></span>
+                        <span>Amraj Aujla </span>
+                    </li>
+                    <li>
+                        <span><i class="fa-solid fa-envelope"></i></i></span>
+                        <span>
+                        Amrajaujla@hotmail.com </span>
+                    </li>
+                    <li>
+                        <span><i class="fa-solid fa-phone"></i></span>
+                        <span>
+                        778-237-2752
+                    </span>
+                    </li> 
+                </ul>
+            </div>
+            <ul class = "sci">
+                <li><a href = "https://www.linkedin.com/in/amraj-aujla" target="_blank"><i class= "fa-brands fa-linkedin"></i></li></a>
+                <li><a href = "https://github.com/Amraj-Aujla" target="_blank"><i class="fa-brands fa-github"></i></li></a>
+                <li><a href = "https://www.instagram.com/amraj_aujla/" target ="_blank"><i class="fa-brands fa-instagram"></i></li></a>
             </ul>
-        </div>
-        <ul class = "sci">
-            <li><a href = "https://www.linkedin.com/in/amraj-aujla" target="_blank"><i class= "fa-brands fa-linkedin"></i></li></a>
-            <li><a href = "https://github.com/Amraj-Aujla" target="_blank"><i class="fa-brands fa-github"></i></li></a>
-            <li><a href = "https://www.instagram.com/amraj_aujla/" target ="_blank"><i class="fa-brands fa-instagram"></i></li></a>
-        </ul>
-        
-    </div>
-    <div class="contactForm">
-        <h2>Send a Message</h2>
-        <div class="formBox">
-            <div class="inputBox w50">
-                <input type = "text" name = "" required>
-                <span>First Name </span>
-            </div>
-            <div class="inputBox w50">
-                <input type = "text" name = "" required>
-                <span>Last Name </span>
-            </div>
-             <div class="inputBox w50">
-                <input type = "text" name = "" required>
-                <span>Email Address </span>
-            </div>
-            <div class="inputBox w50">
-                <input type = "text" name = "" required>
-                <span>Mobile Number </span>
-            </div>
-            <div class="inputBox w100">
-                <textarea name = "" required></textarea>
-                <span>Write your Message Here... </span>
-            </div>
-
-            <div class="inputBox w100">
-                <input type="submit" value = "Send">
-            </div>
             
         </div>
+        <div class="contactForm">
+            <h2>Send a Message</h2>
+            <div class="formBox">
+                <div class="inputBox w50">
+                    <input type = "text" name = "" required>
+                    <span>First Name </span>
+                </div>
+                <div class="inputBox w50">
+                    <input type = "text" name = "" required>
+                    <span>Last Name </span>
+                </div>
+                 <div class="inputBox w50">
+                    <input type = "text" name = "" required>
+                    <span>Email Address </span>
+                </div>
+                <div class="inputBox w50">
+                    <input type = "text" name = "" required>
+                    <span>Mobile Number </span>
+                </div>
+                <div class="inputBox w100">
+                    <textarea name = "" required></textarea>
+                    <span>Write your Message Here... </span>
+                </div>
+    
+                <div class="inputBox w100">
+                    <input type="submit" value = "Send">
+                </div>
+                
+            </div>
+        </div>
     </div>
-</div>
+    </div>
+
 </section>
 <!-- Footer Section -->
 <div class="footer__container">
